@@ -1,0 +1,31 @@
+Name = input("Enter your name: ")
+
+weight = int(input("Enter your weight in kg: "))
+
+height = float(input("Enter your height in kg: "))
+
+BMI = (weight)/(height**2)
+
+print('Your BMI is : ', BMI)
+
+if (BMI<18.5):
+        print('You are underweight,', Name)
+elif (BMI<=24.9):
+        print('You are within the healthy range,', Name)
+elif (BMI<=29.9):
+        print('you are overweight,', Name)
+elif (BMI<=39.9):
+        print('you are within the  obesity range,', Name)
+else:
+    print ('You are severly obesed,' , Name)
+
+if (BMI<18.5):
+        print('You are underweight')
+elif (BMI<=24.9):
+        print('you are within the healthy range')
+elif (BMI<=29.9):
+        print('you are overweight')
+elif (BMI<=39.9):
+        print('you are within the  obesity range')
+else:
+    print ('You are severly obesed')
